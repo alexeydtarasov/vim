@@ -1,6 +1,7 @@
 set mouse=a
 set number
 syntax on
+set noswapfile
 
 set clipboard=unnamedplus
 
@@ -27,7 +28,7 @@ Plugin 'morhetz/gruvbox'
 
 call vundle#end()
 
-
+set background=dark
 filetype plugin indent on
 
 let g:gruvbox_contrast_dark='hard'
